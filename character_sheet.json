@@ -1,0 +1,78 @@
+{
+  "characters": [
+    {
+      "name": "Kaelen the Stalwart",
+      "class": "Fighter (Human)",
+      "level": 1,
+      "hp": {
+        "current": 0,
+        "max": 12
+      },
+      "death_saves": {
+        "successes": 1,
+        "failures": 0
+      },
+      "stats": {
+        "str": 16,
+        "dex": 15,
+        "con": 14,
+        "int": 11,
+        "wis": 13,
+        "cha": 9
+      },
+      "inventory": [
+        "Chain Mail (AC 17 with Defense Style)",
+        "Greatsword",
+        "Flail",
+        "8 Javelins",
+        "Dungeoneer’s Pack"
+      ],
+      "spells": [],
+      "gold": 4
+    }
+  ],
+  "current_location": "The Rusty Flagon Tavern",
+  "active_combat": {
+    "enemies": [
+      {
+        "name": "Giant Rat 1",
+        "hp": {
+          "current": 0,
+          "max": 7
+        },
+        "ac": 13,
+        "notes": [
+          "Defeated by Kaelen"
+        ]
+      },
+      {
+        "name": "Giant Rat 2",
+        "hp": {
+          "current": 7,
+          "max": 7
+        },
+        "ac": 13,
+        "notes": [
+          "Hit Kaelen (Total 18 vs AC 17) for 7 damage"
+        ]
+      },
+      {
+        "name": "Giant Rat 3",
+        "hp": {
+          "current": 7,
+          "max": 7
+        },
+        "ac": 13,
+        "notes": [
+          "Missed Kaelen (Total 9 vs AC 17) with Advantage"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Fighting Style (Defense)",
+    "Alert Feat (+2 Init)",
+    "Savage Attacker",
+    "Second Wind (2/LR)"
+  ]
+}
