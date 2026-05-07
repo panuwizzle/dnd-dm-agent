@@ -1,16 +1,13 @@
 {
+  "party_name": "The Flagon's Guardians",
   "characters": [
     {
       "name": "Kaelen the Stalwart",
       "class": "Fighter (Human)",
       "level": 1,
       "hp": {
-        "current": 0,
+        "current": 12,
         "max": 12
-      },
-      "death_saves": {
-        "successes": 1,
-        "failures": 0
       },
       "stats": {
         "str": 16,
@@ -28,51 +25,158 @@
         "Dungeoneer’s Pack"
       ],
       "spells": [],
-      "gold": 4
+      "gold": 4,
+      "features": [
+        "Fighting Style (Defense)",
+        "Alert Feat (+2 Init)",
+        "Savage Attacker",
+        "Second Wind (2/LR)"
+      ]
+    },
+    {
+      "name": "Thistle",
+      "class": "Cleric (Halfling)",
+      "level": 1,
+      "hp": {
+        "current": 6,
+        "max": 10
+      },
+      "stats": {
+        "str": 10,
+        "dex": 14,
+        "con": 14,
+        "int": 10,
+        "wis": 16,
+        "cha": 13
+      },
+      "inventory": [
+        "Chain Shirt (AC 15)",
+        "Shield (+2 AC)",
+        "Mace",
+        "Holy Symbol",
+        "Priest's Pack",
+        "7 GP"
+      ],
+      "spells": {
+        "cantrips": [
+          "Guidance",
+          "Sacred Flame",
+          "Thaumaturgy"
+        ],
+        "prepared": [
+          "Bless",
+          "Cure Wounds",
+          "Guiding Bolt",
+          "Shield of Faith"
+        ]
+      },
+      "gold": 7,
+      "features": [
+        "Divine Order (Protector)",
+        "Healer (Origin Feat)",
+        "Brave",
+        "Halfling Luck"
+      ]
+    },
+    {
+      "name": "Elara",
+      "class": "Ranger (Wood Elf)",
+      "level": 1,
+      "hp": {
+        "current": 12,
+        "max": 12
+      },
+      "stats": {
+        "str": 12,
+        "dex": 17,
+        "con": 14,
+        "int": 10,
+        "wis": 15,
+        "cha": 8
+      },
+      "inventory": [
+        "Studded Leather Armor (AC 15)",
+        "Shortsword",
+        "Shortsword",
+        "Longbow",
+        "20 Arrows",
+        "Explorer's Pack",
+        "7 GP"
+      ],
+      "spells": {
+        "prepared": [
+          "Cure Wounds",
+          "Ensnaring Strike",
+          "Hunter's Mark (Favored Enemy)"
+        ]
+      },
+      "gold": 7,
+      "features": [
+        "Favored Enemy",
+        "Weapon Mastery (Longbow, Shortsword)",
+        "Musician (Origin Feat)",
+        "Fleet of Foot",
+        "Mask of the Wild"
+      ]
+    },
+    {
+      "name": "Zephyr",
+      "class": "Wizard (Gnome)",
+      "level": 1,
+      "hp": {
+        "current": 8,
+        "max": 8
+      },
+      "stats": {
+        "str": 8,
+        "dex": 14,
+        "con": 14,
+        "int": 17,
+        "wis": 12,
+        "cha": 10
+      },
+      "inventory": [
+        "Dagger",
+        "Arcane Focus (Quarterstaff)",
+        "Spellbook",
+        "Scholar's Pack",
+        "5 GP"
+      ],
+      "spells": {
+        "cantrips": [
+          "Light",
+          "Mage Hand",
+          "Ray of Frost"
+        ],
+        "prepared": [
+          "Mage Armor",
+          "Magic Missile",
+          "Sleep",
+          "Thunderwave"
+        ],
+        "spellbook": [
+          "Detect Magic",
+          "Feather Fall",
+          "Mage Armor",
+          "Magic Missile",
+          "Sleep",
+          "Thunderwave"
+        ],
+        "slots": {
+          "level_1": 1
+        }
+      },
+      "gold": 5,
+      "features": [
+        "Ritual Adept",
+        "Arcane Recovery",
+        "Tough (Origin Feat)",
+        "Gnomish Cunning"
+      ]
     }
   ],
-  "current_location": "The Rusty Flagon Tavern",
-  "active_combat": {
-    "enemies": [
-      {
-        "name": "Giant Rat 1",
-        "hp": {
-          "current": 0,
-          "max": 7
-        },
-        "ac": 13,
-        "notes": [
-          "Defeated by Kaelen"
-        ]
-      },
-      {
-        "name": "Giant Rat 2",
-        "hp": {
-          "current": 7,
-          "max": 7
-        },
-        "ac": 13,
-        "notes": [
-          "Hit Kaelen (Total 18 vs AC 17) for 7 damage"
-        ]
-      },
-      {
-        "name": "Giant Rat 3",
-        "hp": {
-          "current": 7,
-          "max": 7
-        },
-        "ac": 13,
-        "notes": [
-          "Missed Kaelen (Total 9 vs AC 17) with Advantage"
-        ]
-      }
-    ]
-  },
+  "current_location": "The Rusty Flagon Tavern - Ale Cellar",
   "notes": [
-    "Fighting Style (Defense)",
-    "Alert Feat (+2 Init)",
-    "Savage Attacker",
-    "Second Wind (2/LR)"
+    "Giant Rats have been defeated."
   ]
 }

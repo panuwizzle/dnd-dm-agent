@@ -1,1 +1,7 @@
-gemini --resume cf34e318-c9b0-4716-8f72-53f73ca6624b
+To resume this session, use the following context:
+- Party: The Flagon's Guardians (Kaelen, Thistle, Elara, Zephyr)
+- Location: The Rusty Flagon Tavern - Ale Cellar
+- Current Status: Giant Rats defeated. Loose stone wall discovered to the north.
+- Latest Session Log: sessions/Kaelen-The-Whispering-Cellar.md
+- Character State: character_sheet.json
+- Date: Thursday, May 7, 2026
