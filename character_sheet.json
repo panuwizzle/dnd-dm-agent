@@ -8,7 +8,7 @@
       "xp": 56,
       "ac": 17,
       "hp": {
-        "current": 10,
+        "current": 12,
         "max": 12
       },
       "hit_dice": {
@@ -60,7 +60,7 @@
       },
       "hit_dice": {
         "die": "d8",
-        "current": 0,
+        "current": 1,
         "max": 1
       },
       "stats": {
@@ -92,7 +92,7 @@
         ],
         "slots": {
           "level_1": {
-            "current": 1,
+            "current": 2,
             "max": 2
           }
         }
@@ -114,7 +114,7 @@
       "xp": 56,
       "ac": 15,
       "hp": {
-        "current": 5,
+        "current": 12,
         "max": 12
       },
       "hit_dice": {
@@ -218,7 +218,7 @@
         ],
         "slots": {
           "level_1": {
-            "current": 1,
+            "current": 2,
             "max": 2
           }
         }
@@ -226,7 +226,7 @@
       "gold": 15,
       "resources": {
         "arcane_recovery": {
-          "current": 0,
+          "current": 1,
           "max": 1,
           "recovers": "long rest"
         }
@@ -255,6 +255,7 @@
     "The party opened the sarcophagus and recovered 50 GP in old minted coins, a Potion of Healing, and a mysterious obsidian coin with a silver eye engraved on one side.",
     "Zephyr inspected the obsidian coin and identified faint divination magic. The silver eye resembles an occult watcher or scrying mark rather than a known holy symbol.",
     "The party gathered the crypt treasure and returned to Barnaby upstairs in The Rusty Flagon.",
-    "Barnaby paid the promised 10 GP reward to each character; this was added to their existing gold."
+    "Barnaby paid the promised 10 GP reward to each character; this was added to their existing gold.",
+    "The party completed a long rest at The Rusty Flagon and is ready for the next adventure. HP, Hit Dice, spell slots, and long-rest resources are restored."
   ]
 }

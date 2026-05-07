@@ -1,7 +1,7 @@
 To resume this session, use the following context:
 - Party: The Flagon's Guardians (Kaelen, Thistle, Elara, Zephyr)
 - Location: The Rusty Flagon Tavern
-- Current Status: Giant Rats defeated. Smuggler's tunnel and forgotten crypt cleared. Party recovered 50 GP, a Potion of Healing, and an obsidian coin with a silver eye. Zephyr identified faint divination magic on the coin. Party returned to Barnaby, who became visibly nervous when the coin was mentioned.
+- Current Status: Giant Rats defeated. Smuggler's tunnel and forgotten crypt cleared. Party recovered 50 GP, a Potion of Healing, and an obsidian coin with a silver eye. Zephyr identified faint divination magic on the coin. Party returned to Barnaby, who became visibly nervous when the coin was mentioned. Party completed a long rest at The Rusty Flagon and is ready for the next adventure.
 - Latest Session Log: sessions/Kaelen-The-Whispering-Cellar.md
 - Character State: character_sheet.json
 - Date: Thursday, May 7, 2026

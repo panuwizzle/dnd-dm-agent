@@ -79,3 +79,11 @@
 - The party gathered the crypt treasure and returned upstairs to Barnaby at The Rusty Flagon.
 - Barnaby honored the original agreement of 10 GP each and a week of free board, but became visibly nervous when the party mentioned the obsidian coin.
 - Barnaby's 10 GP reward was added to each character's existing gold: Kaelen 14 GP, Thistle 17 GP, Elara 17 GP, Zephyr 15 GP.
+
+## Long Rest
+- The party completed a long rest at The Rusty Flagon after clearing the cellar, smuggler's tunnel, and forgotten crypt.
+- Kaelen recovered to 12/12 HP.
+- Elara recovered to 12/12 HP.
+- Thistle recovered his spent Hit Die and all level 1 spell slots, returning to 1/1 Hit Dice and 2/2 Level 1 spell slots.
+- Zephyr recovered all level 1 spell slots and Arcane Recovery, returning to 2/2 Level 1 spell slots and 1/1 Arcane Recovery.
+- The party is ready for the next adventure.
