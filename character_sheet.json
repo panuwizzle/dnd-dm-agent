@@ -5,9 +5,16 @@
       "name": "Kaelen the Stalwart",
       "class": "Fighter (Human)",
       "level": 1,
+      "xp": 56,
+      "ac": 17,
       "hp": {
-        "current": 12,
+        "current": 10,
         "max": 12
+      },
+      "hit_dice": {
+        "die": "d10",
+        "current": 1,
+        "max": 1
       },
       "stats": {
         "str": 16,
@@ -25,7 +32,15 @@
         "Dungeoneer’s Pack"
       ],
       "spells": [],
-      "gold": 4,
+      "gold": 14,
+      "resources": {
+        "second_wind": {
+          "current": 2,
+          "max": 2,
+          "recovers": "1 use on short rest, all uses on long rest"
+        }
+      },
+      "conditions": [],
       "features": [
         "Fighting Style (Defense)",
         "Alert Feat (+2 Init)",
@@ -37,9 +52,16 @@
       "name": "Thistle",
       "class": "Cleric (Halfling)",
       "level": 1,
+      "xp": 56,
+      "ac": 17,
       "hp": {
-        "current": 6,
+        "current": 10,
         "max": 10
+      },
+      "hit_dice": {
+        "die": "d8",
+        "current": 0,
+        "max": 1
       },
       "stats": {
         "str": 10,
@@ -54,8 +76,7 @@
         "Shield (+2 AC)",
         "Mace",
         "Holy Symbol",
-        "Priest's Pack",
-        "7 GP"
+        "Priest's Pack"
       ],
       "spells": {
         "cantrips": [
@@ -68,9 +89,17 @@
           "Cure Wounds",
           "Guiding Bolt",
           "Shield of Faith"
-        ]
+        ],
+        "slots": {
+          "level_1": {
+            "current": 1,
+            "max": 2
+          }
+        }
       },
-      "gold": 7,
+      "gold": 17,
+      "resources": {},
+      "conditions": [],
       "features": [
         "Divine Order (Protector)",
         "Healer (Origin Feat)",
@@ -82,9 +111,16 @@
       "name": "Elara",
       "class": "Ranger (Wood Elf)",
       "level": 1,
+      "xp": 56,
+      "ac": 15,
       "hp": {
-        "current": 12,
+        "current": 5,
         "max": 12
+      },
+      "hit_dice": {
+        "die": "d10",
+        "current": 1,
+        "max": 1
       },
       "stats": {
         "str": 12,
@@ -99,18 +135,30 @@
         "Shortsword",
         "Shortsword",
         "Longbow",
-        "20 Arrows",
-        "Explorer's Pack",
-        "7 GP"
+        "18 Arrows",
+        "Explorer's Pack"
       ],
       "spells": {
         "prepared": [
           "Cure Wounds",
           "Ensnaring Strike",
           "Hunter's Mark (Favored Enemy)"
-        ]
+        ],
+        "slots": {
+          "level_1": {
+            "current": 2,
+            "max": 2
+          }
+        }
       },
-      "gold": 7,
+      "gold": 17,
+      "resources": {
+        "arrows": {
+          "current": 18,
+          "max": 20
+        }
+      },
+      "conditions": [],
       "features": [
         "Favored Enemy",
         "Weapon Mastery (Longbow, Shortsword)",
@@ -123,9 +171,16 @@
       "name": "Zephyr",
       "class": "Wizard (Gnome)",
       "level": 1,
+      "xp": 56,
+      "ac": 12,
       "hp": {
         "current": 8,
         "max": 8
+      },
+      "hit_dice": {
+        "die": "d6",
+        "current": 1,
+        "max": 1
       },
       "stats": {
         "str": 8,
@@ -139,8 +194,7 @@
         "Dagger",
         "Arcane Focus (Quarterstaff)",
         "Spellbook",
-        "Scholar's Pack",
-        "5 GP"
+        "Scholar's Pack"
       ],
       "spells": {
         "cantrips": [
@@ -163,10 +217,21 @@
           "Thunderwave"
         ],
         "slots": {
-          "level_1": 1
+          "level_1": {
+            "current": 1,
+            "max": 2
+          }
         }
       },
-      "gold": 5,
+      "gold": 15,
+      "resources": {
+        "arcane_recovery": {
+          "current": 0,
+          "max": 1,
+          "recovers": "long rest"
+        }
+      },
+      "conditions": [],
       "features": [
         "Ritual Adept",
         "Arcane Recovery",
@@ -175,8 +240,21 @@
       ]
     }
   ],
-  "current_location": "The Rusty Flagon Tavern - Ale Cellar",
+  "party_loot": [
+    "50 GP in old minted coins",
+    "Potion of Healing",
+    "Mysterious obsidian coin with a silver eye engraved on one side"
+  ],
+  "active_combat": null,
+  "current_location": "The Rusty Flagon Tavern",
   "notes": [
-    "Giant Rats have been defeated."
+    "Giant Rats have been defeated.",
+    "The party earned 125 XP total from 3 Giant Rats and 2 Kobold Warriors; 31 XP tracked per character.",
+    "The party completed a short rest in the smuggler's tunnel. Thistle spent 1 Hit Die and recovered to 10/10 HP. Zephyr used Arcane Recovery to restore his expended 1st-level spell slot.",
+    "The party earned 100 XP total from 1 Skeleton and 1 Zombie; XP increased to 56 per character.",
+    "The party opened the sarcophagus and recovered 50 GP in old minted coins, a Potion of Healing, and a mysterious obsidian coin with a silver eye engraved on one side.",
+    "Zephyr inspected the obsidian coin and identified faint divination magic. The silver eye resembles an occult watcher or scrying mark rather than a known holy symbol.",
+    "The party gathered the crypt treasure and returned to Barnaby upstairs in The Rusty Flagon.",
+    "Barnaby paid the promised 10 GP reward to each character; this was added to their existing gold."
   ]
 }
